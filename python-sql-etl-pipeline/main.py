@@ -28,7 +28,7 @@ for rec in all_data:
 
 conn.commit()
 
-print(f"🎉 成功把 {len(all_data)} 条销售数据洗入 py_sql 数据库！")
+print(f"🎉")
 
 cursor.close()
 conn.close()
